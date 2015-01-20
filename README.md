@@ -4,4 +4,4 @@ Facilities were provided to enable users to view other properties on the Daft on
 
 
 
-[!PropertyList](https://raw.githubusercontent.com/VitaFitSoft/PropertyList/master/app/src/main/res/raw/property_list_demo.gif)
+![PropertyList] (https://raw.githubusercontent.com/VitaFitSoft/PropertyList/master/app/src/main/res/raw/property_list_demo.gif)
