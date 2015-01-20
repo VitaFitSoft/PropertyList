@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".PropertyOverview">
+    <!-- View Image, should appear as action button -->
+    <item android:id="@+id/action_view_image"
+          android:icon="@drawable/ic_action_picture"
+          android:title="@string/view_full_image"
+          android:showAsAction="ifRoom"
+		  android:orderInCategory="10"/>
+    <!-- View Online, should appear as action button -->
+    <item android:id="@+id/action_property_online"
+          android:icon="@drawable/ic_action_web_site"
+          android:title="@string/visit_property_online"
+		  android:orderInCategory="20"
+          android:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+		  android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

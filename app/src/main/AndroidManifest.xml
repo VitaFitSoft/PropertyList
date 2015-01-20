@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.propertylist" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".controller.AppController"
+        android:allowBackup="false"
+        android:icon="@drawable/daft_logo_thumb"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.PropertyListActivity"
+            android:label="@string/button_send"
+          >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.propertylist.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DescriptionActivity"
+            android:label="@string/property_description"
+         >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.PropertyListActivity" />
+        </activity>
+    </application>
+
+</manifest>
